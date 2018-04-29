@@ -3,4 +3,6 @@
 echo "------ HOOK START - PUSH -------"
 printenv
 
+docker image push $IMAGE_NAME
+
 echo "------ HOOK END - PUSH -------"
