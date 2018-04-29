@@ -2,5 +2,6 @@
 
 echo "------ HOOK START - TEST -------"
 printenv
+docker image ls
 
 echo "------ HOOK END - TEST -------"
